@@ -3,7 +3,7 @@ package com.security.jwt.Model;
 public class LoginRequest {
 
     private int id;
-    private String name;
+    private String Username;
     private String password;
 
     public int getId() {
@@ -14,12 +14,12 @@ public class LoginRequest {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return Username;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String username) {
+        Username = username;
     }
 
     public String getPassword() {
